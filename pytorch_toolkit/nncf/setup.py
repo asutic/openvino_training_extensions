@@ -84,7 +84,7 @@ if "--cpu-only" in sys.argv:
     KEY = ["CPU"]
     sys.argv.remove("--cpu-only")
 else:
-    INSTALL_REQUIRES.extend(["torch==1.3.1", "torchvision==0.4.2"])
+    INSTALL_REQUIRES.extend(["torch==1.4.0", "torchvision==0.5.0"])
     KEY = ["GPU"]
 
 
